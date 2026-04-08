@@ -1,0 +1,72 @@
+<exhibition id="743262b2-866b-42b3-97c2-fbe61fbd1eaa">
+<event id="8c5e42db-36dc-489b-ae3d-bcaf00a0f6b2">
+<name>Renaissance Art Exhibition</name>
+<date>2026-06-10</date>
+<city>Warsaw</city>
+<location id="80d8d9de-c22c-488b-b09d-2e094ab1f85e">
+<venue>National Museum</venue>
+<hall>Main Hall</hall>
+</location>
+<organizer id="e3e293e5-5042-457a-bd86-c05610f29126">
+<organization>Museum of Art</organization>
+<schedule>
+<startTime>09:00</startTime>
+<endTime>17:00</endTime>
+<breakTime>
+<from>12:00</from>
+<to>13:00</to>
+</breakTime>
+<workingDays>
+<day>Monday</day>
+<day>Tuesday</day>
+<day>Wednesday</day>
+</workingDays>
+</schedule>
+</organizer>
+<visitors>
+<expectedNumber>5000</expectedNumber>
+<ageLimit>12</ageLimit>
+</visitors>
+</event>
+<artist id="de51b613-9850-4cb9-ab0a-3269118a530f">
+<name>Leonardo da Vinci</name>
+<country>Italy</country>
+<birthYear>1452</birthYear>
+<deathYear>1519</deathYear>
+<artworks>
+<artwork id="55842309-10c7-47e2-8eb2-c326839383a6">
+<title>Mona Lisa</title>
+<year>1503</year>
+</artwork>
+<artwork id="22f02d19-dec3-4cec-8bfc-0033ebc29c5c">
+<title>The Last Supper</title>
+<year>1498</year>
+</artwork>
+</artworks>
+<biography>
+<birthPlace>Vinci, Italy</birthPlace>
+<education>
+<master>Andrea del Verrocchio</master>
+<city>Florence</city>
+</education>
+</biography>
+</artist>
+<exhibit id="f91867ca-0ce0-47b3-9806-628dad0e19e6">
+<title>Mona Lisa</title>
+<type>Painting</type>
+<year>1503</year>
+<material>Oil on wood</material>
+<dimensions>
+<height>77</height>
+<width>53</width>
+</dimensions>
+<exhibitPosition>
+<hall>A</hall>
+<stand>15</stand>
+</exhibitPosition>
+<security>
+<level>High</level>
+<guard>Yes</guard>
+</security>
+</exhibit>
+</exhibition>

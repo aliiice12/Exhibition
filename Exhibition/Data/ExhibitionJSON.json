@@ -1,0 +1,87 @@
+{
+  "Exhibition": {
+    "Exhibits": [
+      {
+        "Id": "f91867ca-0ce0-47b3-9806-628dad0e19e6",
+        "Title": "Mona Lisa",
+        "Type": "Painting",
+        "Year": 1503,
+        "Material": "Oil on wood",
+        "Dimensions": {
+          "Height": 77,
+          "Width": 53
+        },
+        "Location": {
+          "Hall": "A",
+          "Stand": "15"
+        },
+        "Security": {
+          "Level": "High",
+          "Guard": "Yes"
+        }
+      }
+    ],
+    "Events": [
+      {
+        "Id": "8c5e42db-36dc-489b-ae3d-bcaf00a0f6b2",
+        "Name": "Renaissance Art Exhibition",
+        "Date": "2026-06-10",
+        "City": "Warsaw",
+        "Location": {
+          "Id": "80d8d9de-c22c-488b-b09d-2e094ab1f85e",
+          "Venue": "National Museum",
+          "Hall": "Main Hall"
+        },
+        "Organizer": {
+          "Id": "e3e293e5-5042-457a-bd86-c05610f29126",
+          "Organization": "Museum of Art",
+          "Schedule": {
+            "StartTime": "09:00",
+            "EndTime": "17:00",
+            "BreakTime": {
+              "From": "12:00",
+              "To": "13:00"
+            },
+            "WorkingDays": [
+              "Monday",
+              "Tuesday",
+              "Wednesday"
+            ]
+          }
+        },
+        "Visitors": {
+          "ExpectedNumber": 5000,
+          "AgeLimit": 12
+        }
+      }
+    ],
+    "Artists": [
+      {
+        "Id": "de51b613-9850-4cb9-ab0a-3269118a530f",
+        "Name": "Leonardo da Vinci",
+        "Country": "Italy",
+        "BirthYear": 1452,
+        "DeathYear": 1519,
+        "Artworks": [
+          {
+            "Id": "55842309-10c7-47e2-8eb2-c326839383a6",
+            "Title": "Mona Lisa",
+            "Year": 1503
+          },
+          {
+            "Id": "22f02d19-dec3-4cec-8bfc-0033ebc29c5c",
+            "Title": "The Last Supper",
+            "Year": 1498
+          }
+        ],
+        "Biography": {
+          "BirthPlace": "Vinci, Italy",
+          "Education": {
+            "Master": "Andrea del Verrocchio",
+            "City": "Florence"
+          }
+        }
+      }
+    ]
+  }
+}
