@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Xml.Serialization;
 namespace ProjectExhibition.Event
 {
@@ -6,7 +7,7 @@ namespace ProjectExhibition.Event
     {
         [XmlAttribute("id")]
         [JsonProperty("id")]
-        public string Id { get; set; }
+        public Guid Id { get; set; }
         [XmlElement("venue")]
         [JsonProperty("venue")]
         public string Venue { get; set; }

@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Xml.Serialization;
 namespace ProjectExhibition.Artist
@@ -7,7 +8,7 @@ namespace ProjectExhibition.Artist
     {
         [XmlAttribute("id")]
         [JsonProperty("id")]
-        public string Id { get; set; }
+        public Guid Id { get; set; }
         [XmlElement("name")]
         [JsonProperty("name")]
         public string Name { get; set; }

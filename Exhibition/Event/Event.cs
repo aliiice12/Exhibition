@@ -7,7 +7,7 @@ namespace ProjectExhibition.Event
     {
         [XmlAttribute("id")]
         [JsonProperty("id")]
-        public string Id { get; set; }
+        public Guid Id { get; set; }
         [XmlElement("name")]
         [JsonProperty("name")]
         public string Name { get; set; }
